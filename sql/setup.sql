@@ -1,0 +1,6 @@
+CREATE TABLE sauce (
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name TEXT NOT NULL,
+    description TEXT,
+    url TEXT NOT NULL
+);
